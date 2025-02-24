@@ -37,7 +37,9 @@ namespace AppFindPairs.Graphics
         {
             this.Hide();
             frmJugar frm = new frmJugar();
-            frm.ShowDialog();
+            frm.Show();
+            frmEleccionPares frm2 = new frmEleccionPares();
+            frm2.ShowDialog();
         }
     }
 }
